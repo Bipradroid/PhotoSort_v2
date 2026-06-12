@@ -1,0 +1,6 @@
+flask>=3.0
+retina-face>=0.0.17
+deepface>=0.0.93
+scikit-learn>=1.4
+numpy>=1.26
+Pillow>=10.0
