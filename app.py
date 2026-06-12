@@ -266,4 +266,4 @@ def process_job(job_id, job_dir, zip_path, method):
 
 if __name__ == '__main__':
     os.makedirs(JOBS_DIR, exist_ok=True)
-    app.run(debug=True, use_reloader= False, host='0.0.0.0', port=5000)
+    app.run(debug=False, use_reloader=False, host='0.0.0.0', port=7860)
